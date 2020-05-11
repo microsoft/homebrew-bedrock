@@ -1,3 +1,27 @@
+# Homebrew Bedrock Formulae
+This repository contains [Homebrew](https://brew.sh/) formulae for:
+- [bedrock-cli](https://github.com/microsoft/bedrock-cli)
+
+Tap to the formulae repository:
+```
+$ brew tap microsoft/bedrock
+```
+
+## Install Bedrock CLI
+
+```
+$ brew install microsoft/bedrock/bedrock-cli
+```
+
+Test the formula:
+```
+$ brew test microsoft/bedrock/bedrock-cli
+```
+
+Run `bedrock-cli`:
+```
+$ bedrock
+```
 
 # Contributing
 
