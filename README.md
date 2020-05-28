@@ -1,3 +1,46 @@
+# Homebrew Bedrock Formulae
+This repository contains [Homebrew](https://brew.sh/) formulae for:
+- [bedrock-cli](https://github.com/microsoft/bedrock-cli)
+
+Tap to the formulae repository:
+```
+$ brew tap microsoft/bedrock
+```
+
+## Install Bedrock CLI
+
+```
+$ brew install microsoft/bedrock/bedrock-cli
+```
+
+Test the formula:
+```
+$ brew test microsoft/bedrock/bedrock-cli
+```
+
+Run `bedrock-cli`:
+```
+$ bedrock
+```
+
+## Upgrade Bedrock CLI
+If you already have the Bedrock CLI installed, you can upgrade to the latest version as follows:
+```
+$ brew upgrade microsoft/bedrock/bedrock-cli
+```
+
+## Uninstall Bedrock CLI
+To uninstall the Bedrock CLI run:
+```
+$ brew uninstall microsoft/bedrock/bedrock-cli
+```
+
+If you also want to unsubscribe to the `microsoft/bedrock` tap, run:
+```
+$ brew untap microsoft/bedrock
+```
+
+
 
 # Contributing
 
